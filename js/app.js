@@ -9,7 +9,7 @@ function login() {
         
         // Redirigir a listaDeTarea.html
         setTimeout(function() {
-            window.location.href = "/views/listaDeTarea.html";
+            window.location.href = "views/listaDeTarea.html";
         }, 1000); // Redirige después de 1 segundo para mostrar el mensaje
     } else {
         message.style.color = "red";
